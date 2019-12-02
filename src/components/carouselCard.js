@@ -13,15 +13,8 @@ class CarouselCard extends Component {
 
   }
 
-  componentWillMount(){
-
-  }
-
-
   clickCard(e){
-
     var lastMovie = JSON.stringify(this.props.movieData)
-
     localStorage.setItem('lastMovie', lastMovie);
   }
 
@@ -38,7 +31,7 @@ class CarouselCard extends Component {
           <div>
             <h1 className="prueba">{this.props.title}</h1>
             <p>Audio: {this.props.audios[0]}, {this.props.audios[1]}, {this.props.audios[2]}</p>
-            
+
           </div>
         </Link>
       </div>

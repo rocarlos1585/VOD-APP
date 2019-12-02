@@ -16,20 +16,6 @@ class History extends Component {
     }
   }
 
-  componentWillMount(){
-    /*var cache=JSON.parse(localStorage.getItem('history'))
-    var historyLocal=[]
-
-    for(var i=0; i<cache.length; i++){
-
-      var obj = JSON.parse(cache[i])
-
-      arreglo.push(obj)
-    }
-
-    console.log(arreglo)*/
-  }
-
 
   render() {
 
