@@ -1,0 +1,105 @@
+/*COLORS:
+  blue: #00a4e4
+  pink: #d82a91
+  yellow: #ffd400*/
+
+@font-face {
+  font-family: 'LittlePat';
+  src:
+      url(../../fonts/Little-Pat.ttf);
+}
+
+@font-face {
+  font-family: 'BlackboardSchool';
+  src:
+      url(../../fonts/BlackboardSchool.otf);
+}
+
+@font-face {
+  font-family: 'BlackboardSchoolAwesome';
+  src:
+      url(../../fonts/BlackboardSchool-Awesome.otf);
+}
+
+.cardContainer{
+  width:250px;
+  background-color:#8DCC80 ;
+  margin:1%;
+  border-radius: 5%;
+  cursor:pointer;
+}
+
+.cardContainer a{
+  color:;
+  text-decoration: none;
+  font-family: "LittlePat"
+}
+
+.cardContainer p{
+  color:black;
+  font-family: "LittlePat";
+  font-size: 3vh;
+  background-color: ;
+  margin:0%;
+}
+
+.cardContainer:hover{
+  opacity: 0.9;
+
+}
+
+.cardContainer img{
+  width: 250px;
+  border-top-left-radius:  5%;
+  border-top-right-radius:   5%;
+}
+
+.cardContainer h1{
+  color: white;
+  text-align: center;
+  height: 40px;
+  font-size: 4vh;
+  margin:0%;
+}
+
+/*IMAC*/
+@media(min-width:2500px) and (max-width:5000px){
+  .cardContainer{
+    width:550px;
+  }
+
+  .cardContainer img{
+    width: 550px;
+  }
+
+  .cardContainer p{
+    margin-top:5%;
+  }
+}
+
+/*MACKBOOK PRO*/
+@media(min-width:1600px) and (max-width: 2400px){
+
+}
+
+/*IPAD*/
+@media(min-width:425px) and (max-width: 800px){
+
+}
+
+/*CELLPHONES*/
+@media(min-width:0px) and (max-width: 420px){
+  .cardContainer{
+    width:400px;
+    background-color:#8DCC80 ;
+    margin:1%;
+    border-radius: 5%;
+    cursor:pointer;
+  }
+
+  .cardContainer img{
+    width: 400px;
+    border-top-left-radius:  5%;
+    border-top-right-radius:   5%;
+  }
+}

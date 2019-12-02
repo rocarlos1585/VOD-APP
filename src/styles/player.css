@@ -1,0 +1,21 @@
+.playerContainer{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow:hidden;
+  position: absolute;
+}
+
+.moviePlayer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.movieTitle{
+  position: absolute;
+  z-index: 1;
+  color:white;
+  left: 2%;
+}
